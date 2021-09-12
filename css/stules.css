@@ -32,7 +32,7 @@ main {
 
 .line {
     background-color: cornflowerblue;
-    height: 5px;
+    height: 3px;
     width: 95px;
 }
 
@@ -45,6 +45,6 @@ main {
 
 .line-flooder {
     background-color: rgb(48, 45, 214);
-    height: 5px;
+    height: 3px;
     width: 95px;
 }
