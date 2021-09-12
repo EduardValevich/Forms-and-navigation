@@ -1,0 +1,50 @@
+body {
+    display: block;
+    margin: 10px;
+    background: radial-gradient(rgb(191, 250, 247), rgb(167, 227, 255)) no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indicator {
+    padding: 35px 0;
+    width: 450px;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point-flooded {
+    background-color: rgb(48, 45, 214);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.line {
+    background-color: cornflowerblue;
+    height: 5px;
+    width: 95px;
+}
+
+.point {
+    background-color: cornflowerblue;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.line-flooder {
+    background-color: rgb(48, 45, 214);
+    height: 5px;
+    width: 95px;
+}
