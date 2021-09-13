@@ -81,6 +81,7 @@ button {
     height: 60px;
     width: auto;
     font-size: 20px;
+    box-shadow: 0 5px 6px 5px rgba(54, 54, 54, 0.089);
     border-radius: 10px;
     border: 2px solid rgb(96, 238, 243);
     background: radial-gradient(rgba(179, 252, 248, 0.671), rgba(136, 215, 252, 0.774)) no-repeat;
