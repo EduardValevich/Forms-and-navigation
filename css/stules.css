@@ -48,3 +48,21 @@ main {
     height: 3px;
     width: 95px;
 }
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    background: radial-gradient(rgba(191, 250, 247, 0.671), rgba(167, 227, 255, 0.712)) no-repeat;
+    box-shadow: 0 8px 8px 8px rgba(54, 54, 54, 0.089);
+    border-radius: 15px;
+}
+
+input {
+    height: 45px;
+    width: 210px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: none;
+}
