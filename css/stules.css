@@ -58,6 +58,7 @@ form {
     box-shadow: 0 8px 8px 8px rgba(54, 54, 54, 0.089);
     border-radius: 15px;
     border: 2px solid rgb(96, 238, 243);
+    font-size: 18px;
 }
 
 input {
@@ -66,6 +67,7 @@ input {
     margin-bottom: 25px;
     border-radius: 10px;
     border: 2px solid rgb(96, 238, 243);
+    font-size: 18px;
 }
 
 .navigation {
@@ -90,7 +92,12 @@ button:hover {
 
 .navigation-2 {
     display: flex;
-    width: 320px;
+    width: 400px;
     padding-top: 45px;
     justify-content: space-around;
+}
+
+.terms-of-use {
+    padding: 10px 30px;
+    text-align: justify;
 }
