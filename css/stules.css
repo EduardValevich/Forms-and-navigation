@@ -84,6 +84,10 @@ button {
     background: radial-gradient(rgba(179, 252, 248, 0.671), rgba(136, 215, 252, 0.774)) no-repeat;
 }
 
+button:hover {
+    background: radial-gradient(rgba(160, 244, 255, 0.671), rgba(107, 171, 255, 0.774)) no-repeat;
+}
+
 .navigation-2 {
     display: flex;
     width: 320px;
