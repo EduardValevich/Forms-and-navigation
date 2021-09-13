@@ -77,9 +77,16 @@ input {
 
 button {
     height: 60px;
-    width: 100px;
+    width: auto;
     font-size: 20px;
     border-radius: 10px;
     border: 2px solid rgb(96, 238, 243);
     background: radial-gradient(rgba(179, 252, 248, 0.671), rgba(136, 215, 252, 0.774)) no-repeat;
+}
+
+.navigation-2 {
+    display: flex;
+    width: 320px;
+    padding-top: 45px;
+    justify-content: space-around;
 }
